@@ -2283,7 +2283,7 @@
 			#me {
 				padding: 0;
 				margin-right: 3rem; 
-				height: 20em;
+				height: 15em;
 			}
 
 				#me .pic {
@@ -2365,10 +2365,16 @@
 					#me header > p {
 						position: absolute;
 						left: 0;
-						top: 52.5%;
+						top: 42%;
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+						margin-right:25rem;
+					}
+
+					#me header > div {
+						margin-top: 9rem;
+						font-size: x-small;
 					}
 
 	}
@@ -2458,6 +2464,11 @@
 				#me header > p {
 					text-align: center;
 					font-size: 1.25em;
+				}
+
+				#me header > div {
+					font-size: x-small;
+					margin-top: -2rem;
 				}
 
 	}
@@ -4347,7 +4358,7 @@
 		font-weight: bold;
 		text-shadow: 3px 3px 5px #000;
 		/*bottom:0px;*/
-		padding: 2%;
+		padding: 0 1rem 0 1rem;
 		color:#eeeeee;
 		text-transform: none;
 	}
